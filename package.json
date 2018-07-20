@@ -1,0 +1,20 @@
+{
+  "name": "imagemagik-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^1.7.0",
+    "busboy": "^0.2.14",
+    "gm": "^1.23.1",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-emulator": "^1.0.0-beta.4"
+  }
+}
